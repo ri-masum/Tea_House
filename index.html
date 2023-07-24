@@ -253,13 +253,15 @@
 
 
                     </div>
-                    <div class="flex-1  lg:p-12">
-                        <h1 class="text-xl lg:text-5xl font-bold text-white">Meet Our Super <br> Clients</h1>
-                        <p class="py-6 text-white">There are many variations of passages of Lorem Ipsum available, but
+                    <div class="flex-1  lg:p-12 relative">
+                        <img src="./images/bg_cup.png" alt="" class="absolute ml-20 mt-32">
+                        <h1 class="relative text-xl lg:text-5xl font-bold text-white">Meet Our Super <br> Clients</h1>
+                        <p class=" relative py-6 text-white">There are many variations of passages of Lorem Ipsum
+                            available, but
                             the majority
                             have suffered alteration in some form, by injected humour, or randomised words which don't
                             look even slightly believable. </p>
-                        <button class="btn bg-white ">Show all</button>
+                        <button class="btn bg-white relative">Show all</button>
 
 
                     </div>
@@ -285,7 +287,7 @@
                         <h2 class="card-title">Collecting 8 points for discount</h2>
                         <p>There are many variations of passages of Lorem Ipsum available.</p>
                         <p class="text-sm font-semibold">Learn More</p>
-                        
+
                     </div>
                 </div>
                 <!-- second -->
@@ -296,7 +298,7 @@
                         <h2 class="card-title">Collecting 8 points for discount</h2>
                         <p>There are many variations of passages of Lorem Ipsum available.</p>
                         <p class="text-sm font-semibold">Learn More</p>
-                        
+
                     </div>
                 </div>
                 <!-- third -->
@@ -307,15 +309,63 @@
                         <h2 class="card-title">Collecting 8 points for discount</h2>
                         <p>There are many variations of passages of Lorem Ipsum available.</p>
                         <p class="text-sm font-semibold">Learn More</p>
-                        
+
                     </div>
                 </div>
 
             </div>
 
         </section>
+
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer class="p-4 md:p-28 lg:p-36 bg-red-300">
+        <div class="flex lg:justify-between mb-10">
+            <img src="./images/cup.png" class="w-10" alt="">
+            <div class="flex items-center lg:gap-5">
+                <p class="text-lg">Ready to get strated?</p>
+                <button class="bg-gradient-to-r from-orange-400 to-red-600 p-1 lg:p-4 rounded-lg">Get Started</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <span class="footer-title">Services</span> 
+                <a class="link link-hover">Branding</a> 
+                <a class="link link-hover">Design</a> 
+                <a class="link link-hover">Marketing</a> 
+                <a class="link link-hover">Advertisement</a>
+              </div> 
+              <div>
+                <span class="footer-title">Company</span> 
+                <a class="link link-hover">About us</a> 
+                <a class="link link-hover">Contact</a> 
+                <a class="link link-hover">Jobs</a> 
+                <a class="link link-hover">Press kit</a>
+              </div> 
+              <div>
+                <span class="footer-title">Legal</span> 
+                <a class="link link-hover">Terms of use</a> 
+                <a class="link link-hover">Privacy policy</a> 
+                <a class="link link-hover">Cookie policy</a>
+              </div> 
+              <div>
+                <span class="text-xl font-semibold">Subscribe to our <br> newsletter</span> 
+                <div class="form-control w-80">
+                  <label class="label">
+                  </label> 
+                  <div class="relative">
+                    <input type="email" placeholder="Email address " class="outline-none border-b-2 border-black p-4 bg-transparent  text-black lg:w-full lg:pr-16" /> 
+                    <button class="btn  lg:absolute top-0 right-0  rounded-full border-none bg-gradient-to-r from-orange-400 to-red-600  "><img src="./images/arrow.png" alt=""></button>
+                  </div>
+                </div>
+              </div>
+        </div>
+            <div>
+              <p class="text-sm text-center  text-black mt-10" >Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+            </div>
+      </footer>
+   
 
 </body>
 
